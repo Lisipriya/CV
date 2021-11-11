@@ -4,189 +4,176 @@
     <meta charset="UTF-8">
     <meta name="description" content="This Website is all about my resume showcase to people">
     <title>Lisi Priya's Resume</title>
-    <!-- <style>
-      table, th, td {
-        border: 2px solid black;
-        border-collapse: collapse;
-      }
-    </style> -->
+    <link rel="stylesheet" href="css\styles.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-  <table>
-    <tr>
-      <td><img src="Passport picture.png" alt="Lisi Priya's profile picture"></td>
-      <td style="text-indent: 2em;"><h1>Lisi Priya A P</h1>
-        <p><strong>Working as Software engineer in Hexaware Technologies Ltd. From December 2018– Till date</strong></p>
-        <p>Bachelor of Engineering(Electronics & Communication)</p>
-        <p><a href="contact_me.html">Contact Me</a>
-      </p></td>
-    </tr>
-  </table>
+  <div class="title-container">
+        <img id="profile-img" src="images\Passport picture.png" alt="Lisi Priya's profile picture">
+        <h1 id="intro">I'm Lisi Priya A P</h1>
+        <h3 id="tagline">A Software engineer.</h3>
 
-  <hr size="3" noshade>
-  <p>
-      <h3><u>Profile Summary</u></h3>
-      <ul>
-        <li>Overall 3+ years of experience in Software Testing.</li>
-        <li>Involved in design, execution and reporting of test scenarios and cases.</li>
-        <li>Involved Regression Testing, Smoke Testing in agile methodology.</li>
-        <li>Good Knowledge on Python.</li>
-        <li>Experience in Guidewire Claim Center application. Involved in Information security Audit for the project.</li>
-        <li>Excellent Communication, Interpersonal Skills. Quick Learner, versatile, adaptable and
-          process -oriented with high customer orientation.</li>
+      <div class="menu-button-container">
+        <a class="menu-buttons" href="#about">About |</a>
+        <a class="menu-buttons" href="#skills">Skills |</a>
+        <a class="menu-buttons" href="#projects">Projects |</a>
+        <a class="menu-buttons" href="#contact">Contact |</a>
+      </div>
+      <div class="profiles-container">
+        <a href="https://www.linkedin.com/in/a-p-lisi-priya-0a2159126/"><img src="images/linkedin.png" alt="linkedin-img"> </a>
+        <a href="https://github.com/Lisipriya"><img src="images/github.png" alt="github-img"> </a>
+      </div>
+    </div>
+    <div class="about-container">
+      <h1 class="title"><u id="about">About</u></h1>
+      <p class="bio">Technically 3+ years of experience in Software Testing with a track record of high-quality
+        delivery. Involved in Regression Testing, Smoke Testing in agile methodology. Experience in Guidewire Claim Center application.
+        I pride myself by self-learning Python from beginner to advanced.
+        Excellent Communication, Interpersonal Skills, Quick Learner, versatile, adaptable and
+        process-oriented with high customer orientation.
+        </p>
+      <p id="experience-paragraph">Industry Experience:</p>
+      <p class="bio">Experience of 3 years in Testing Software applications.
+        Involved in design and execution of test scenarios and cases.
+        Well versed with Test Documentation (Test Scenario, Test Case, Test Data, and Defect Report).
+        Worked on Guidewire functional testing on different transactions in Claim center -
+        FNOL, Incident creation, Exposures, Reserves, Recovery Reserves and Payments.
+        Mentored QA automation team members.Experience on reporting and tracking defects using Rally, Jira and HP ALM.
+      </p>
+      <p id="cert-paragraph">Certifications:</p>
+      <table align="center">
+         <tbody>
+         <tr>
+           <td>2021</td>
+           <td><u><a class="cert-link" href="images\Azure-Fundamental-AZ900.png">Azure Fundamentals</a></u></td>
+         </tr>
+         </tbody>
+       </table>
+    </div>
 
-      </ul>
-  </p>
-  <p>
-    <h3><u>Experience Summary</u></h3>
-    Has over 3 years of experience in Testing Software applications
-    <ul>
-      <li>Knowledge on UFT/QTP Test Automation Tool</li>
-      <li>Well versed with Test Documentation (Test Scenario, Test Case, Test Data, and Defect Report).</li>
-      <li>Worked on Guidewire functional testing.</li>
-      <li>Migrated over 20000+ policy from Axon to Guidewire.</li>
-      <li>Worked on different transactions in Claim center as follows FNOL, Incident creation, Exposures, Reserves, Recovery Reserves and Payments.</li>
-      <li>Mentored QA automation team members</li>
-      <li>Experience on reporting and tracking defects using Rally, Jira and HP ALM.</li>
-    </ul>
-  </p>
-  <h3><u>Software Skills</u></h3>
-  <p>
-    <ul>
-      <li>Operating Systems : Windows</li>
-      <li>Programming : <a href="https://github.com/Lisipriya/Python/tree/master/Project100">Python</a> <a href="https://github.com/Lisipriya/VbScripting">VBScript</a>  and Java</li>
-      <li>Documentation : MS Office</li>
-      <li>Testing Tools : UFT (formerly QTP)</li>
-      <li>Editor : Eclipse, Thonny, PyCharm</li>
-      <li>Web Technologies : HTML</li>
-      <li>Test Management Tool : ALM, Jira, Rally</li>
-      <li>Other Application(s) : SAP(FICO, SD, SRM & CRM), Guidewire</li>
+  <div class="skills-container">
+    <h1 class="title"><u><a id="skills">Skills</a></u></h1>
+    <div class="grid-container">
+      <div class="skill-1">
+        <h3>Key skills from work</h3>
+        <img class="skill-img" src="images/code.png" alt="cloud-img">
+        <p> Primarily involved in testing web applications using VBScripting and Selenium(Java). Also involved in Testing and migrating for Guidewire Claim center application.
+        </p>
+      </div>
+      <div class="skill-2">
+        <h3>Familiar Tools</h3>
+        <img class="skill-img" src="images/website.png" alt="database-img">
+        <p>Having hands-on experience to develop, test and deliver projects using PyCharm, Git, Atom, Thonny, Eclipse and UFT (formerly QTP).
+          Also worked on test management tools like ALM, Jira and Rally
+        </p>
+      </div>
+      <div class="skill-3">
+        <h3>Programming</h3>
+        <img class="skill-img" src="images/python.png" alt="code-img">
+        <p> Self learnt Python developer with strong grasp of OOP & python modules - Turtle, Tkinter, Pandas, Requests and SMTP.
+          Hobby <u><a class="python-link" href="https://github.com/Lisipriya/Python/tree/master/Project100">game developments using Python </a></u> and some interesting projects like <br>
+          
+            <tbody>
+          <tr>
+            <td>#</td>
+            <td><u><a class="python-link" href="https://github.com/Lisipriya/Python/tree/master/Project100/Baby_Sleep_Inducer">Baby Shusher</a></u></td><br>
+          </tr>
+          <tr>
+            <td>#</td>
+            <td><u><a class="python-link" href="https://github.com/Lisipriya/Python/tree/master/Project100/Day28Project_Pomodoro">Pomodoro Timer</a></u></td><br>
+          </tr>
+          <tr>
+            <td>#</td>
+            <td><u><a class="python-link" href="https://github.com/Lisipriya/Python/tree/master/Project100/Day35Project_Rain_Alert_vis_SMS">Rain_Alert_via_SMS</a></u></td><br>
+          </tr>
+          <tr>
+            <td>#</td>
+            <td><u><a class="python-link" href="https://github.com/Lisipriya/Python/tree/master/Project100/Day36Project_Stock_News_Alert">Stock_News_Alert</a></u></td><br>
+          </tr>
+          </tbody>
 
-    </ul>
+        </p>
+      </div>
+      <div class="skill-4">
+        <h3>Website Development</h3>
+        <img class="skill-img" src="images/cloud-data.png" alt="agile-img">
+        <p>Using HTML5, CSS, developed website for personal use - <br> <u><a class="python-link" href="https://lisipriya.github.io/CV/">My Resume</a></u><br>
+          Used python modules such as Beautiful soup and Selenium (Python) for Web Scraping in home automation <br>
 
-  </p>
-  <h3><u>Project Summary</u></h3>
-  <p>
-      <h4><u><strong>Project 1: NN Insurance</strong></u></h4>
-      <table style="width:40%" border="1">
-        <tr>
-          <th>Role</td>
-          <td style="text-indent: 2em;">Test Automation Engineer/Test Analyst</td>
-        </tr>
-        <tr>
-          <th>Tools Used</td>
-          <td style="text-indent: 2em;"> Jira, Conflunece, Guidewire</td>
-        </tr>
-        <tr>
-          <th>Domain</td>
-          <td style="text-indent: 2em;">Insurance</td>
-        </tr>
-        <tr>
-          <th>Duration</td>
-          <td style="text-indent: 2em;"> March 31, 2021 to till date</td>
-        </tr>
-      </table>
-  </p>
-  <p>
-    <h4><u>Description</u></h4>
-    NN INSURANCE BELGIUM is a legal entity registered with LEI implemented by Global Legal Entity Identifier Foundation (GLEIF).
-     NN is the number 4 in Belgium in the field of insurance.
-      NN offers financial services.
-  </p>
-  <p>
-    <h4><u>Roles And Responsibilities</u></h4>
-    <ul>
-      <li>Understanding the client requirements by studying functional document.</li>
-      <li>Involved in sanity testing for most of the products in daily basis in different legacy applications.</li>
-      <li>Involved in Test Analysis, Test preparation, Test execution and Test Sign off.</li>
-      <li>Involved in Regression testing and Identified the end to end regression cases.</li>
-      <li>KT sessions to team members on application functionality.</li>
-      <li>Involved in the preparation of test data.</li>
-      <li>Identified test requirement and checked if the test cases were complete to test the business functionality.</li>
-    </ul>
-  </p>
-  <p>
-      <h4><u><strong>Project 2: Axon Policy Migration</strong></u></h4>
-      <table style="width:40%" border="1">
-        <tr>
-          <th>Role</td>
-          <td style="text-indent: 2em;">Test Automation Engineer/Test Analyst</td>
-        </tr>
-        <tr>
-          <th>Tools Used</td>
-          <td style="text-indent: 2em;">Selenium</td>
-        </tr>
-        <tr>
-          <th>Domain</td>
-          <td style="text-indent: 2em;">Insurance</td>
-        </tr>
-        <tr>
-          <th>Duration</td>
-          <td style="text-indent: 2em;">December 01, 2020 to  March 31, 2021</td>
-        </tr>
-      </table>
-  </p>
-  <p>
-    <h4><u>Description</u></h4>
-    Axon Underwriting Services LLC is underwriting and brokerage experts business insurance company.
-    Offering a highly efficient Program Administrator/MGA platform and insurance services.
-    Axon underwrites and distributes products backed by the financial strength of domestic
-     A-rated Carriers and as a Coverholder for Lloyds of London.
-  </p>
-  <p>
-    <h4><u>Roles And Responsibilities</u></h4>
-    <ul>
-      <li>Part of execution team, Acceptance testing in production and test environment</li>
-      <li>Migrating policy from manual entry to automated entry using selenium </li>
-      <li>KT sessions to team members on application functionality.</li>
-      <li>Involved in the preparation of test data.</li>
-    </ul>
-  </p>
-  <p>
-      <h4><u><strong>Project 3: EY – MERCURY AUTOMATION SERVICES</strong></u></h4>
-      <table style="width:40%" border="1">
-        <tr>
-          <th>Role</td>
-          <td style="text-indent: 2em;">Test Automation Engineer/Test Analyst</td>
-        </tr>
-        <tr>
-          <th>Tools Used</td>
-          <td style="text-indent: 2em;"> Microfocus UFT, VBScript, ALM and SAP</td>
-        </tr>
-        <tr>
-          <th>Domain</td>
-          <td style="text-indent: 2em;"> Finance</td>
-        </tr>
-        <tr>
-          <th>Duration</td>
-          <td style="text-indent: 2em;"> April 16, 2019 to Oct 09, 2020</td>
-        </tr>
-      </table>
-  </p>
-  <p>
-    <h4><u>Description</u></h4>
-    Ernst & Young is a multinational Service firm headquartered in London, England, United Kingdom.
-    EY is one of the largest professional services firm in the world.
-    The Project involves in Automating manual test case from the existing regression suite using UFT
-    and performing regression testing for all major releases. ALM folder structure had business process and
-    sub-business process for all core packs. The transactions were handled using SAP.
-  </p>
-  <p>
-    <h4><u>Roles And Responsibilities</u></h4>
-    <ul>
-      <li>Developing Automation test Suite based on the Functional document and the manual test cases</li>
-      <li>Prepare document like Delivery Document, Review Checklist, Datasheet and KT Documents for all the automation script that are newly developed</li>
-      <li>Developing test Script and perform regression testing using UFT.</li>
-      <li>End to End Scenario testing is done for every major release.</li>
-      <li>During maintenance activity automated test scripts were migrated from one test environment to the other test environment.</li>
-      <li>Executing the automation test script for regression testing.</li>
-      <li>Sending issue documents to Functional/Process team if any issues occurred during execution</li>
-    </ul>
-  </p>
-  <h3><u>Personal Particular</u></h3>
-  <p><strong>Date of Birth:</strong>24-05-1998</p>
-  <p><strong>Marrital Status:</strong> Married</p>
-  <p><strong>Language Known:</strong> English and Tamil</p>
-  <p>I hereby declare that the information furnished above is true to the best of my knowledge.</p>
+          <tbody>
+          <tr>
+            <td>#</td>
+            <td><u><a class="python-link" href="https://github.com/Lisipriya/Python/tree/master/Project100/Day51Project_Twitter_complaint">Internet Bandwith Tracker</a></u></td><br>
+          </tr>
+          <tr>
+            <td>#</td>
+            <td><u><a class="python-link" href="https://github.com/Lisipriya/Python/tree/master/Project100/Day47Project_Amazon_price_Tracker">Amazon Price Tracker</a></u></td><br>
+          </tr>
+          <tr>
+            <td>#</td>
+            <td><u><a class="python-link" href="https://github.com/Lisipriya/Python/tree/master/Project100/Day53Project_House_Rental_Bot">Easy Search Rental House</a></u></td><br>
+          </tr>
+          </tbody>
+
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="projects-container">
+    <h1 class="title"><u><a id="projects">Projects</a></u></h1>
+    <br>
+    <br>
+    <div class="proj-grid-container">
+      <div class="proj1">
+        <h3>Project : NN Insurance</h3>
+        <!-- <img src="images/accident.png" alt="warning-img"> -->
+        <p> NN INSURANCE BELGIUM is a legal entity registered with LEI implemented by Global Legal Entity Identifier Foundation (GLEIF).
+         NN is the number 4 in Belgium in the field of insurance. NN offers financial services.
+         This project involves testing of each modules functionality in guide wire claim center application.
+        </p>
+      </div>
+      <div class="proj2">
+        <h3>Project : Axon Policy Migration</h3>
+        <!-- <img src="images/poker.png" alt="poker-img"> -->
+        <p>Axon Underwriting Services LLC is underwriting and brokerage experts business insurance company.
+        Offering a highly efficient Program Administrator/MGA platform and insurance services.
+        This project involves migration of policies to Cloud using Selenium.
+        </p>
+      </div>
+      <div class="proj3">
+        <h3>Project : EY – Mercury Automation Services</h3>
+        <!-- <img src="images/plane.png" alt="plane-img"> -->
+        <p>Ernst & Young is one of the largest professional auditing services firm in the world.
+        The Project involves in Automating manual test case from the existing regression suite using UFT
+        and performing regression testing for all major releases. ALM folder structure had business process and
+        sub-business process for all core packs. The transactions were handled using SAP.
+       </p>
+      </div>
+      <div class="btn1">
+          <a class="btn" href="nn_insurance.html">
+            Work Details</a>
+      </div>
+      <div class="btn2">
+          <a class="btn" href="axon.html">Work Details</a>
+      </div>
+      <div class="btn3">
+          <a class="btn" href="ey_mas.html">Work Details</a>
+      </div>
+    </div>
+  </div>
+  <div class="contact-container">
+      <h2 id="contact">Get in touch</h2>
+      <h3>Like my resume?</h3>
+      <a class="btn" href="mailto:aplisipriya1998@gmail.com">CONTACT ME</a>
+    </div>
+    <div class="footer-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/a-p-lisi-priya-0a2159126/">LinkedIn</a>
+      <a class="footer-link" href="https://github.com/Lisipriya">Github</a>
+      <p class="copyright">© 2021 Lisi Priya A P.</p>
+    </div>
+
 </body>
 </html>
